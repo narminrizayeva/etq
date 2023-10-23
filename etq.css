@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+.vsastr {
+  display: flex;
+}
+.vsastr .left-side {
+  flex: 70%;
+}
+.vsastr .left-side img {
+  width: 100%;
+}
+.vsastr .left-side .navbar {
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 5%;
+}
+.vsastr .left-side .navbar h2 {
+  font-size: 30px;
+  color: white;
+}
+.vsastr .left-side .navbar P {
+  margin-top: 35px;
+  padding-left: 20px;
+  color: white;
+  font-size: 13px;
+}
+.vsastr .left-side .navbar a {
+  text-decoration: none;
+}
+.vsastr .right-side {
+  flex: 30%;
+}
+.vsastr .right-side .nara {
+  font-family: "Varela Round", sans-serif;
+  margin-top: 90px;
+  margin-left: 20px;
+  padding: 10px;
+}
+.vsastr .right-side .nara p {
+  margin-top: 2px;
+  font-weight: 600;
+}
+.vsastr .right-side .nara h6 {
+  margin-top: 2px;
+  font-weight: 100;
+}
+.vsastr .right-side .nara a {
+  margin-top: 2px;
+  color: black;
+}
+.vsastr .right-side .nara h3 {
+  margin-top: 2px;
+  font-weight: 100;
+}
+.vsastr .right-side .lolbar {
+  font-family: "Varela Round", sans-serif;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.vsastr .right-side .lolbar p {
+  margin-top: 35px;
+  font-size: 12px;
+  color: black;
+}
+.vsastr .right-side .lolbar a {
+  text-decoration: none;
+}
+.vsastr .right-side .lolbar i {
+  margin-top: 35px;
+}
+
+@media (max-width: 375px) {
+  .left-side img {
+    position: fixed;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=etq.css.map */
